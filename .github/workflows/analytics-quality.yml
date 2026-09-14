@@ -1,0 +1,33 @@
+name: Analytics Quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'analytics/metrics.csv'
+      - 'scripts/analyze_metrics.py'
+      - 'scripts/build_dashboard.py'
+      - '.github/workflows/analytics-quality.yml'
+  pull_request:
+    paths:
+      - 'analytics/metrics.csv'
+      - 'scripts/analyze_metrics.py'
+      - 'scripts/build_dashboard.py'
+
+jobs:
+  validate-analytics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Analyze metrics
+        run: python scripts/analyze_metrics.py analytics/metrics.csv
+
+      - name: Test dashboard build
+        run: python scripts/build_dashboard.py analytics/metrics.csv /tmp/zeph-rides-dashboard.html
