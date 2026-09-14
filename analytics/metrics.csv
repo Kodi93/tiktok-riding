@@ -1,0 +1,3 @@
+observed_at,post_id,asset,format,length_s,views,likes,comments,shares,new_followers,avg_watch_s,completion_rate,source,confidence,notes
+2026-09-14,baseline-01,unidentified,existing,42,99,,,,,,,TikTok Studio,observed,"Recent visible post; exact post ID not captured"
+2026-09-14,baseline-02,unidentified,existing,12,45,1,,,,,,,TikTok Studio,observed,"Recent visible post; exact post ID not captured"
