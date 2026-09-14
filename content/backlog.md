@@ -88,6 +88,30 @@ These are more important than producing another generic road clip.
 | 44_hybrid_detail | Hybrid Life | visually interesting hybrid-specific control/behavior | 10–20s | Detail | CAPTURE |
 | 45_what_people_notice | Hybrid Life | one real question/reaction people have about the bike | 10–25s | Bike Hero | IDEA |
 
+## P0/P1 — Meme reaction insert shorts
+
+Use `content/meme_reaction_system.md`. These are original Zeph shorts where the meme-style insert communicates the rider's reaction without requiring face-cam.
+
+| Priority | Asset | Setup -> reaction -> payoff | Target length | Source need | Status |
+|---|---|---|---:|---|---|
+| P0 | 46_one_more_road | `I'm heading home` -> wife asks if coming home -> tempting back road -> chaos-approval reaction -> hard left onto back road | 7–10s | Locate exact hard-left clip | NEEDS_SOURCE |
+| P1 | 47_eta_eventually | heading home -> one more turn appears -> fake navigation changes to `ETA HOME: EVENTUALLY` -> keep riding | 6–10s | Strong route-decision clip | NEEDS_SOURCE |
+| P1 | 48_self_control_zero | calm ride promise -> perfect curve/road appears -> `SELF CONTROL: 0%` -> commit to road | 6–9s | Strong temptation/reveal clip | NEEDS_SOURCE |
+| P1 | 49_bad_idea_accepted | `quick ride` setup -> optional detour -> `TERRIBLE IDEA — ACCEPTED` impact stamp -> payoff | 7–11s | Detour/fork clip | NEEDS_SOURCE |
+| P1 | 50_wv_route_planner | GPS/normal route expectation -> WV back road appears -> `SHORTEST ROUTE: DISABLED` -> take it | 7–12s | Sign/fork/back-road clip | NEEDS_SOURCE |
+| P1 | 51_core_memory | wholesome rider/stranger reaction -> restrained `CORE MEMORY UNLOCKED` card -> preserve real interaction | 7–15s | Older-gentleman or similar clip | NEEDS_SOURCE |
+| P2 | 52_hot_take_diagnostic | motorcycle hot take via platform-native remix -> `STATEMENT NOT FOUND` / helmet-turn reaction -> our real counterpoint | 8–16s | Remix source + our response footage | NEEDS_SOURCE |
+
+### Meme reaction rules
+- reaction insert is punctuation, not the whole video;
+- it lands on a real decision/reveal beat;
+- use original Zeph graphics/animation by default instead of ripped branded-character clips;
+- return to real motorcycle footage quickly;
+- preserve the helmet-on identity rather than defaulting to face-cam;
+- track whether the format improves completion, shares, comments, profile visits, or follows.
+
+Dedicated brief for the first concept: `content/briefs/46_one_more_road.md`.
+
 ## P2 — Controlled experiments
 
 | Asset | Experiment | Hypothesis | Status |
@@ -97,6 +121,7 @@ These are more important than producing another generic road clip.
 | EXP_C_no_text | reveal-first vs text hook | self-explanatory visual beats generic text | IDEA |
 | EXP_D_engine | engine-only vs TTS | clean original audio may outperform narration for satisfying visual | IDEA |
 | EXP_E_identity | rider present vs no rider | rider presence improves account identity and follows | IDEA |
+| EXP_F_meme_insert | meme-reaction insert vs plain TTS joke | a well-timed visual reaction improves completion/shares without needing face-cam | IDEA |
 
 Track formal experiment records in `analytics/experiments.csv`.
 
