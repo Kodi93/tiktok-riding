@@ -1,0 +1,10 @@
+planned_order,asset,series,cover_family,cover_source,cover_text,dominant_subject,light_mode,adjacent_distinct,status,notes
+1,14_quick_ride_again,One More Corner,Humor_Graphic,IN_VIDEO_OR_GRAPHIC,"HOME BY SIX?",text_plus_curve,bright,YES,PLANNED,"Do not use another generic road-only still"
+2,20_why_this_road,60 Seconds of WV,Rider_Hero,ORIGINAL_STILL,"WHY THIS ROAD",rider_plus_bike,moody,YES,PLANNED,"Capture/select rider-bike still if available"
+3,15_gps_left,Road Said No,Destination_Environment,IN_VIDEO_FRAME,"GPS SAID LEFT",sign_or_fork,bright,YES,PLANNED,"Use road sign/fork rather than pavement"
+4,21_three_signs,60 Seconds of WV,Detail,ORIGINAL_OR_IN_VIDEO,"3 THINGS I WATCH",controls_or_road_detail,neutral,YES,PLANNED,"Avoid implying advanced/safety expertise beyond content"
+5,16_calm_ride,One More Corner,Bike_Hero,ORIGINAL_STILL,"RELAXING RIDE?",bike,moody,YES,PLANNED,"Bike should dominate frame"
+6,17_last_corner,One More Corner,Curve_Road_Reveal,IN_VIDEO_FRAME,"LAST CORNER. SURE.",distinct_curve,bright,YES,PLANNED,"Only road-family cover in this local sequence"
+7,TBD_encounter_01,Ride Encounters,Encounter,REAL_FRAME,"THIS MADE MY RIDE",person_or_animal,bright,YES,NEEDS_SOURCE,"Priority: turkey or thumbs-up encounter"
+8,TBD_helmet_01,Helmet On,Rider_Hero,ORIGINAL_STILL,"HELMET ON",rider_plus_bike,dark,YES,NEEDS_SOURCE,"Strong full-body/bike composition"
+9,TBD_detail_01,Machine Details,Detail,ORIGINAL_STILL,"THE PART PEOPLE ASK ABOUT",bike_detail,dark,YES,NEEDS_SOURCE,"Cluster/control/hybrid-specific detail"
