@@ -21,15 +21,20 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 
 ### Strategy / brand
 - [Brand Bible](BRAND_BIBLE.md)
+- [Brand Voice](BRAND_VOICE.md)
 - [Growth Strategy](GROWTH_STRATEGY.md)
+- [Monetization Roadmap](MONETIZATION_ROADMAP.md)
 - [30-Day Roadmap](ROADMAP.md)
 - [Visual Language & Art Direction](VISUAL_LANGUAGE.md)
 - [Professional Production Standard](PRODUCTION_STANDARD.md)
+- [Editing Playbook](EDITING_PLAYBOOK.md)
+- [Shoot Day SOP](SHOOT_DAY_SOP.md)
 - [Release QA Gate](QA_RELEASE_CHECKLIST.md)
 - [Content Operating System](CONTENT_SYSTEM.md)
 
 ### Content planning
 - [Content Backlog](content/backlog.md)
+- [100-Idea Content Reservoir](content/CONTENT_IDEAS_100.md)
 - [Publishing Calendar](content/calendar.md)
 - [Recurring Series Architecture](content/series_architecture.md)
 - [Remix / Community Strategy](content/remix_strategy.md)
@@ -40,6 +45,7 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 - [Cover Plan](content/cover_plan.csv)
 - [Capture Shot List](content/shot_list.md)
 - [Native TikTok TTS Scripts](content/voiceover_scripts.md)
+- [Comment & Reply-Video Strategy](COMMENT_STRATEGY.md)
 - [Asset Manifest](content/asset_manifest.csv)
 - [Source Inventory](content/source_inventory.csv)
 
@@ -70,7 +76,10 @@ Immediate priorities:
 4. capture a reusable bank of rider, bike, startup, detail, night, and environment shots;
 5. stop publishing repetitive filler simply to satisfy cadence;
 6. pilot a controlled community/remix lane using native TikTok reuse features rather than copied reuploads;
-7. measure retention, shares/comments, profile visits, and follow conversion rather than views alone.
+7. measure retention, shares/comments, profile visits, and follow conversion rather than views alone;
+8. use meme-reaction inserts as punctuation around authentic Zeph footage, not as a substitute for original identity;
+9. turn useful comments into reply-video candidates instead of treating engagement as a dead end;
+10. capture each ride according to `SHOOT_DAY_SOP.md` so future edits are not constrained by POV-only footage.
 
 ## Content portfolio
 
