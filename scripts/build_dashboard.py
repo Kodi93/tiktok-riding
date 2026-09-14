@@ -15,12 +15,51 @@ def read_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-def number(value: str) -> float | None:
+def number(value: str | None) -> float | None:
     try:
-        cleaned = value.strip().replace(",", "")
+        cleaned = value.strip().replace(",", "") if value is not None else ""
         return float(cleaned) if cleaned else None
     except (AttributeError, ValueError):
         return None
+
+
+def metric(row: dict[str, str], *names: str) -> float | None:
+    for name in names:
+        value = number(row.get(name))
+        if value is not None:
+            return value
+    return None
+
+
+def label_for(row: dict[str, str]) -> str:
+    return (
+        row.get("asset_id")
+        or row.get("asset")
+        or row.get("post_id")
+        or "post"
+    )
+
+
+def date_for(row: dict[str, str]) -> str:
+    return row.get("posted_at") or row.get("observed_at") or row.get("created") or ""
+
+
+def visible_engagement_rate(row: dict[str, str]) -> float | None:
+    explicit = metric(row, "visible_engagement_rate", "engagement_rate")
+    if explicit is not None:
+        return explicit
+
+    views = metric(row, "views")
+    if not views:
+        return None
+
+    interactions = [
+        metric(row, "likes"),
+        metric(row, "comments"),
+        metric(row, "shares"),
+    ]
+    observed = [value for value in interactions if value is not None]
+    return (sum(observed) / views) * 100 if observed else None
 
 
 def fmt(value: float | int | None) -> str:
@@ -34,10 +73,9 @@ def fmt(value: float | int | None) -> str:
 def build_chart(rows: list[dict[str, str]]) -> str:
     points = []
     for row in rows:
-        views = number(row.get("views", ""))
+        views = metric(row, "views")
         if views is not None:
-            label = row.get("asset_id") or row.get("post_id") or "post"
-            points.append((label, views))
+            points.append((label_for(row), views))
 
     if not points:
         return '<p class="empty">No numeric views recorded yet.</p>'
@@ -66,11 +104,13 @@ def build_chart(rows: list[dict[str, str]]) -> str:
 
 
 def render(rows: list[dict[str, str]]) -> str:
-    view_values = [value for row in rows if (value := number(row.get("views", ""))) is not None]
+    view_values = [
+        value for row in rows if (value := metric(row, "views")) is not None
+    ]
     engagement_values = [
         value
         for row in rows
-        if (value := number(row.get("visible_engagement_rate", ""))) is not None
+        if (value := visible_engagement_rate(row)) is not None
     ]
     total_views = sum(view_values)
     median_views = statistics.median(view_values) if view_values else None
@@ -97,21 +137,28 @@ def render(rows: list[dict[str, str]]) -> str:
 
     table_rows = []
     for row in rows:
-        views = number(row.get("views", ""))
-        engagement = number(row.get("visible_engagement_rate", ""))
+        views = metric(row, "views")
+        likes = metric(row, "likes")
+        comments = metric(row, "comments")
+        shares = metric(row, "shares")
+        engagement = visible_engagement_rate(row)
         table_rows.append(
             "<tr>"
-            f"<td>{html.escape(row.get('asset_id', ''))}</td>"
-            f"<td>{html.escape(row.get('posted_at', ''))}</td>"
+            f"<td>{html.escape(label_for(row))}</td>"
+            f"<td>{html.escape(date_for(row))}</td>"
             f"<td>{fmt(views)}</td>"
-            f"<td>{f'{engagement:.2f}% ' if engagement is not None else '—'}</td>"
+            f"<td>{fmt(likes)}</td>"
+            f"<td>{fmt(comments)}</td>"
+            f"<td>{fmt(shares)}</td>"
+            f"<td>{f'{engagement:.2f}%' if engagement is not None else '—'}</td>"
             f"<td>{html.escape(row.get('notes', ''))}</td>"
             "</tr>"
         )
 
     table = (
-        "<table><thead><tr><th>Asset</th><th>Posted</th><th>Views</th>"
-        "<th>Visible engagement</th><th>Notes</th></tr></thead><tbody>"
+        "<table><thead><tr><th>Asset/post</th><th>Date</th><th>Views</th>"
+        "<th>Likes</th><th>Comments</th><th>Shares</th><th>Visible engagement</th>"
+        "<th>Notes</th></tr></thead><tbody>"
         + "".join(table_rows)
         + "</tbody></table>"
         if table_rows
@@ -138,7 +185,7 @@ section {{ background: #151b26; border: 1px solid #2e3a4d; border-radius: 12px; 
 svg {{ width: 100%; min-height: 96px; }}
 .label, .value {{ fill: #edf2f7; font-size: 13px; dominant-baseline: middle; }}
 .bar {{ fill: #25d0a5; }}
-table {{ border-collapse: collapse; width: 100%; min-width: 680px; }}
+table {{ border-collapse: collapse; width: 100%; min-width: 900px; }}
 th, td {{ border-bottom: 1px solid #2e3a4d; text-align: left; padding: 10px 8px; vertical-align: top; }}
 th {{ color: #aab5c4; font-size: 0.82rem; text-transform: uppercase; letter-spacing: .04em; }}
 .empty {{ padding: 18px 0; }}
