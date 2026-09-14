@@ -1,0 +1,5 @@
+status,priority,source_post_url,commenter,comment_text,response_type,series_fit,footage_needed,hook,expected_value,notes
+SCOUT,P1,,,,DIRECT_REPLY,,,,,
+SCOUT,P1,,,,PLAY_ALONG,,,,,
+SCOUT,P1,,,,REPLY_VIDEO,,,,,
+SCOUT,P2,,,,FOLLOW_UP_QUESTION,,,,,
