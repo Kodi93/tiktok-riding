@@ -12,6 +12,13 @@ Account: @zeph.rides.wv
 - Interpretation: directional baseline only. There are not enough comparable posts to call a winner or retire a format.
 - Next decision: let the confirmed queue run, collect 2-hour/24-hour/72-hour metrics, then compare the four short hooks as a batch.
 
+## Scheduler check — 2026-09-14
+
+- Metricool shows two published posts with stable TikTok IDs: `7685143484998618382` and `7685391154296261901`.
+- Twenty additional posts are pending through 2026-09-24.
+- Metricool does not expose whether TikTok-native TTS was applied, so the native-voice gate remains a TikTok-side QA step.
+- No new posts were added beyond the confirmed queue because the next assets still need their final edit/TTS pass.
+
 ## 1. Data quality
 
 - [ ] Every published post has a row in analytics/metrics.csv.
