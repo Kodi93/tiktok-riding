@@ -12,6 +12,7 @@ Planning, production, scheduling, and measurement for @zeph.rides.wv.
 - [Weekly review](analytics/weekly-review.md)
 - [Metrics analyzer](scripts/analyze_metrics.py)
 - [Progress dashboard builder](scripts/build_dashboard.py)
+- [Current progress dashboard](analytics/dashboard.html)
 - [Asset manifest](content/asset_manifest.csv)
 
 ## Current operating decision
