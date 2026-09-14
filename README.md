@@ -14,6 +14,7 @@ Planning, production, scheduling, and measurement for @zeph.rides.wv.
 - [Progress dashboard builder](scripts/build_dashboard.py)
 - [Current progress dashboard](analytics/dashboard.html)
 - [Asset manifest](content/asset_manifest.csv)
+- [Source inventory](content/source_inventory.csv)
 
 ## Current operating decision
 
