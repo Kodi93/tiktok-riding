@@ -4,6 +4,14 @@ Review window: ____________________
 Completed by: ____________________  
 Account: @zeph.rides.wv
 
+## Initial baseline — 2026-09-14
+
+- Two visible posts are recorded in `analytics/metrics.csv`, but their stable TikTok IDs were not captured.
+- Visible views: 99 and 45; total 144; median 72.
+- Visible likes: 1 on the 45-view post; comments, shares, watch time, completion, and follower conversion are not yet available.
+- Interpretation: directional baseline only. There are not enough comparable posts to call a winner or retire a format.
+- Next decision: let the confirmed queue run, collect 2-hour/24-hour/72-hour metrics, then compare the four short hooks as a batch.
+
 ## 1. Data quality
 
 - [ ] Every published post has a row in analytics/metrics.csv.
