@@ -1,121 +1,180 @@
 # Zeph Rides TikTok Content Operating System
 
-This repository is the planning and measurement source of truth for @zeph.rides.wv.
+This repository is the planning and measurement source of truth for `@zeph.rides.wv`.
+
+Read first:
+- `BRAND_BIBLE.md`
+- `PRODUCTION_STANDARD.md`
+- `VISUAL_LANGUAGE.md`
+- `QA_RELEASE_CHECKLIST.md`
+- `GROWTH_STRATEGY.md`
 
 ## Objective
 
-Build a repeatable TikTok system that increases reach and followers first, while deliberately producing original one-minute videos that can support Creator Rewards eligibility later. We are not treating virality as guaranteed; we are running controlled creative experiments and keeping the winners.
+Build a repeatable system that increases reach, followers, repeat viewers, and original-content quality without turning the feed into a high-volume dump of near-identical motorcycle footage.
 
-## Current snapshot — 2026-09-14
+Professional quality outranks cadence.
 
-- Account: @zeph.rides.wv
-- Latest user-reported account snapshot: 0 followers and 52 likes. Recheck TikTok Studio before treating this as authoritative.
-- Visible early post baseline: roughly 99 views on a 42-second post and 45 views on a 12-second post.
-- Publishing timezone: America/New_York.
-- Current Metricool queue: scheduled through 2026-09-24.
-- Direct TikTok queue has one known duplicate 10:00 AM item that still needs cleanup when direct TikTok editing is available.
-- Native TikTok text-to-speech is the preferred narrator style for short clips. Metricool cannot add that native voice layer after upload.
+## Current correction — 2026-09-14
 
-## The routine
+The early profile is visually too repetitive. Road POV remains a core content type, but it can no longer dominate the visible grid or thumbnail language.
 
-### Every publishing day
+Immediate correction:
+- force cover variation;
+- introduce rider/bike/detail/encounter imagery;
+- prioritize real high-value moments already present in source footage;
+- build recognizable recurring series;
+- stop using generic reflective/motivational copy as a default content engine;
+- track the creative reason behind each post.
 
-1. Publish one short reach clip (8–15 seconds) with a hook in the first frame.
-2. Publish one longer original clip (60–75 seconds) only when the cut has a real narrative beat; do not pad footage to hit a duration.
-3. Reply to every real comment within the first hour when possible.
-4. Log the post in analytics/metrics.csv at approximately 2 hours, 24 hours, and 72 hours.
-5. Record the exact hook, duration, TTS script, sound choice, and post time. If those are unknown, mark them unknown rather than guessing.
+## Production pipeline
 
-### Every production block
+Every asset moves through:
 
-Create:
+`SOURCE -> SELECT -> CONCEPT -> SCRIPT -> EDIT -> COVER -> QA -> SCHEDULE -> PUBLISH -> MEASURE -> DECIDE`
 
-- 4–6 short clips with different hooks and distinct moments.
-- 2 one-minute originals with a beginning, turn, payoff, and closing question.
-- At least one clean-engine/no-music version.
-- At least one native-TTS version.
-- No duplicate asset within seven days unless it is a clearly labeled hook test with materially different opening seconds.
+### SOURCE
+Log source footage or capture requirements in `content/source_inventory.csv` and `content/backlog.md`.
 
-### Weekly review
+### SELECT
+Choose moments with an actual reason to exist: encounter, visual satisfaction, humor, story, rider identity, machine detail, scenery, or useful observation.
 
-Run scripts/analyze_metrics.py, then complete analytics/weekly-review.md.
+### CONCEPT
+Assign:
+- content series/pillar;
+- target length;
+- opening visual;
+- hook;
+- payoff;
+- cover family;
+- metric/hypothesis if experimental.
 
-The weekly decision is:
+### SCRIPT
+Use `content/hook_library.md` and `content/voiceover_scripts.md` as pattern references, not copy-paste generators.
 
-- Keep the top three hooks.
-- Rewrite or retire the bottom two hooks.
-- Choose the next batch from the best-performing content pillar.
-- Do not judge a format from one post; wait for at least eight comparable posts when possible.
+### EDIT
+Follow `PRODUCTION_STANDARD.md`. Remove anything that does not strengthen the idea.
 
-## Content pillars
+### COVER
+Log in `content/cover_plan.csv`. Follow `content/thumbnail_strategy.md` and `VISUAL_LANGUAGE.md`.
 
-| Pillar | Length | Job | Audio |
+### QA
+Score with `QA_RELEASE_CHECKLIST.md`. Default publish threshold: 18/22, with no zero in critical categories.
+
+### SCHEDULE
+Schedule only after asset and QA are complete. Do not create an artificial deadline that forces weak content live.
+
+### MEASURE
+Record performance in `analytics/metrics.csv` at approximately 2h/24h/72h and 7d where useful.
+
+### DECIDE
+Use `analytics/kpi_framework.md`, `analytics/experiments.csv`, and `analytics/weekly-review.md` to keep, revise, or retire the format.
+
+## Daily operating routine
+
+When publishing:
+1. confirm the post passed QA;
+2. confirm the cover does not worsen grid repetition;
+3. publish/schedule with exact caption and audio documented;
+4. reply to authentic comments when practical;
+5. record performance checkpoints;
+6. capture any viewer questions that can become future posts.
+
+## Production block
+
+A normal production block should intentionally create visual range.
+
+Target:
+- 2–3 short reach clips with different opening visual types;
+- 1 real encounter/story when source footage supports it;
+- 1 rider/bike/detail piece;
+- 1 longer structured original;
+- at least one clean engine/original-audio asset;
+- at least one native-TTS asset only when TTS improves the concept.
+
+Do not render an entire backlog simply because it exists.
+
+## Feed architecture gate
+
+Every planned 9-post window should normally contain at least four materially different cover families and four editorial modes.
+
+Run:
+
+```bash
+python scripts/lint_content_plan.py
+```
+
+If the plan fails, revise it before scheduling.
+
+## Recurring content pillars
+
+| Pillar / series | Typical length | Job | Typical visual |
 |---|---:|---|---|
-| Humorous POV | 8–15s | Reach, shares, follows | Native TikTok TTS + low engine audio |
-| Turn/payoff | 12–25s | Retention and comments | Native TTS or engine audio |
-| Narrated ride | 60–75s | Original watch time and creator identity | Own voice/native TTS + cleared/original audio |
-| Pure ride sound | 15–60s | Audio identity and watch-time test | Clean engine audio, no added music |
+| Ride Encounters | 6–30s | curiosity, shares, comments | real person/animal/event |
+| One More Corner | 6–15s | relatable humor | curve + varied humor graphic |
+| WV Road Test | 8–25s | regional identity/reach | distinctive road feature |
+| Helmet On | 7–20s | rider identity/follows | rider + bike |
+| Machine Details | 6–20s | visual variety/curiosity | controls/startup/details |
+| The Long Way Home | 10–45s | emotional/cinematic identity | rider/bike/environment |
+| Things BikeTok Doesn't Show | 8–60s | authenticity/humor | unglamorous real moments |
+| Hybrid Life | 10–45s | bike differentiation/search curiosity | machine + context |
+| 60 Seconds of WV | 60–75s | original watch time/story | structured multi-beat ride |
 
-## Measurement rules
-
-Use these relative rules until the account has a larger sample:
-
-- Strong hook: 24-hour views at least 1.5x the median of the previous eight comparable posts.
-- Strong retention: completion rate or average watch time materially above the format median.
-- Strong conversation: comments or shares per 100 views above the format median.
-- Strong conversion: measurable follows from the post; record the number even when it is zero.
-- Small-sample warning: fewer than eight comparable posts means the result is directional, not conclusive.
-
-Never buy views, followers, or engagement. Never use paid promotion to manufacture Creator Rewards-qualified views.
+See `content/series_architecture.md`.
 
 ## Native TikTok TTS standard
 
-For short clips, apply the voice inside TikTok:
+TTS is a tool, not the channel identity.
 
-1. Upload the finished vertical video.
-2. Add a text block containing the narration.
-3. Select the text block and choose Text-to-speech.
-4. Use the default/narrator style unless a different native option clearly fits.
-5. Split lines into separate text blocks when the joke needs a pause.
-6. Set each text block's duration to match the visual beat.
-7. Keep engine audio low enough that the narration is intelligible.
-8. Add a native sound only after the voice and timing are correct.
+Use native TikTok TTS when it improves timing, humor, or platform-native feel. Do not apply it automatically to every short.
 
-Metricool remains the reliable scheduling lane, but native TTS must be applied in TikTok before the final scheduled upload.
+Workflow:
+1. upload finished vertical cut;
+2. add concise narration text;
+3. apply native text-to-speech;
+4. split text blocks when timing requires pauses;
+5. set text duration to the visual beat;
+6. balance engine audio underneath;
+7. add native sound only if it improves the piece.
 
-## Safety and quality gates
+## Capture standard
 
-Before scheduling:
+Future rides must generate supporting coverage, not only forward POV. Follow `content/shot_list.md` and intentionally capture:
+- rider/bike hero shots;
+- startup/control details;
+- static environment shots;
+- signs/location details;
+- night/mood material;
+- authentic encounter context.
 
-- 9:16 vertical, 1080x1920 target.
-- No black opening frame.
-- Hook readable on the first frame.
-- No dangerous riding behavior encouraged by the caption.
-- Wind reduced without destroying engine character.
-- No unlicensed music baked into one-minute monetization-focused originals.
-- Caption has one clear question or interaction prompt.
-- The asset has not already been scheduled in the same seven-day window.
-- The exact asset path and caption are recorded in content/calendar.md.
+## Rights and integrity
 
-## Plotting progress
+Follow `rights/ASSET_RIGHTS_POLICY.md`.
 
-After updating analytics/metrics.csv, run:
+External or generated images may be used to raise visual quality only when they are relevant, legally usable, and not misleading. Never fabricate real ride events for a cover.
 
-~~~bash
-python scripts/analyze_metrics.py
-python scripts/build_dashboard.py
-~~~
+## Measurement rules
 
-Open analytics/dashboard.html locally or from the checked-out repository. The dashboard is descriptive, not a prediction: it plots only recorded values and leaves missing metrics blank. Use the plot with the weekly review to compare hooks within the same format.
+Use relative rules until the account has a larger sample:
+- compare similar formats;
+- use rolling medians where possible;
+- distinguish observed from estimated values;
+- value retention, shares, profile visits, and follows in addition to raw views;
+- do not declare a format dead from one post.
 
 ## Decision log
 
-When a clip wins or loses, record why. Examples:
+For winners, record **why** they worked. For weak posts, diagnose separately:
+- concept;
+- first frame;
+- hook;
+- pacing;
+- payoff;
+- duration;
+- audio;
+- cover;
+- caption;
+- grid context;
+- distribution/sample size.
 
-- “Hook was understandable before the first turn.”
-- “Punchline arrived too late.”
-- “Text was too small on mobile.”
-- “Native TTS sounded natural but engine audio masked the final word.”
-- “Views were high but shares/follows were weak.”
-
-This keeps the project from drifting back to generic motorcycle footage with no learning loop.
+The system succeeds when the feed becomes more visually varied, more recognizable, and more effective over time — not merely when upload count increases.
