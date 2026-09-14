@@ -1,31 +1,98 @@
-# Zeph Rides TikTok Operations
+# Zeph Rides — Creator Operations
 
-Planning, production, scheduling, and measurement for @zeph.rides.wv.
+Professional content strategy, production, scheduling, quality control, experimentation, and performance measurement for `@zeph.rides.wv`.
+
+This repository is the operating system for the channel. The standard is not `good enough to upload`; the standard is content credible beside established motorcycle creators.
+
+## Mission
+
+Build Zeph Rides into a recognizable motorcycle creator brand with:
+- professional editing and art direction;
+- strong first-second hooks;
+- significant thumbnail/cover variation;
+- recurring series with real identity;
+- deliberate rider/bike presence;
+- authentic West Virginia/Appalachian character;
+- disciplined analytics and experimentation;
+- a path toward sustainable follower growth and future monetization.
 
 ## Start here
 
-- [Content operating system](CONTENT_SYSTEM.md)
-- [Content backlog](content/backlog.md)
-- [Publishing calendar](content/calendar.md)
-- [Native TikTok TTS scripts](content/voiceover_scripts.md)
-- [Metrics log](analytics/metrics.csv)
-- [Weekly review](analytics/weekly-review.md)
-- [Metrics analyzer](scripts/analyze_metrics.py)
-- [Progress dashboard builder](scripts/build_dashboard.py)
-- [Current progress dashboard](analytics/dashboard.html)
-- [Asset manifest](content/asset_manifest.csv)
-- [Source inventory](content/source_inventory.csv)
+### Strategy / brand
+- [Brand Bible](BRAND_BIBLE.md)
+- [Growth Strategy](GROWTH_STRATEGY.md)
+- [30-Day Roadmap](ROADMAP.md)
+- [Visual Language & Art Direction](VISUAL_LANGUAGE.md)
+- [Professional Production Standard](PRODUCTION_STANDARD.md)
+- [Release QA Gate](QA_RELEASE_CHECKLIST.md)
+- [Content Operating System](CONTENT_SYSTEM.md)
 
-## Current operating decision
+### Content planning
+- [Content Backlog](content/backlog.md)
+- [Publishing Calendar](content/calendar.md)
+- [Recurring Series Architecture](content/series_architecture.md)
+- [Hook Library](content/hook_library.md)
+- [Thumbnail / Cover Strategy](content/thumbnail_strategy.md)
+- [Cover Plan](content/cover_plan.csv)
+- [Capture Shot List](content/shot_list.md)
+- [Native TikTok TTS Scripts](content/voiceover_scripts.md)
+- [Asset Manifest](content/asset_manifest.csv)
+- [Source Inventory](content/source_inventory.csv)
 
-Use native TikTok text-to-speech for short humorous clips because it is recognizable and native to the platform. Use original engine audio plus narration for one-minute originals. Metricool is the scheduling lane; TikTok is the editing lane for native TTS and native sounds.
+### Analytics / experiments
+- [KPI Framework](analytics/kpi_framework.md)
+- [Metrics Log](analytics/metrics.csv)
+- [Experiment Registry](analytics/experiments.csv)
+- [Weekly Review](analytics/weekly-review.md)
+- [Progress Dashboard](analytics/dashboard.html)
 
-## Current baseline
+### Automation / QA
+- [Metrics Analyzer](scripts/analyze_metrics.py)
+- [Dashboard Builder](scripts/build_dashboard.py)
+- [Content Plan Linter](scripts/lint_content_plan.py)
 
-- Timezone: America/New_York
-- Latest user-reported snapshot: 0 followers and 52 likes
-- Early visible baseline: approximately 99 views on a 42-second post and 45 views on a 12-second post
-- Current queue: scheduled through 2026-09-24
-- Next priority: produce four new TTS shorts and two narrated one-minute originals, then review at 2h/24h/72h intervals
+### Rights / integrity
+- [Asset Rights & Sourcing Policy](rights/ASSET_RIGHTS_POLICY.md)
 
-The repository is intentionally lightweight: footage remains in the persistent file store, while this repo stores the decisions, scripts, calendar, and evidence needed to improve each batch.
+## Current strategic correction
+
+The early feed is too road-POV heavy, especially in profile thumbnails. That is now treated as a production defect rather than a cosmetic issue.
+
+Immediate priorities:
+1. break up the visible grid with rider/bike/detail/encounter covers;
+2. locate and professionally cut the turkey and older-gentleman thumbs-up moments from existing footage;
+3. establish the helmet-on rider as a recognizable character;
+4. capture a reusable bank of rider, bike, startup, detail, night, and environment shots;
+5. stop publishing repetitive filler simply to satisfy cadence;
+6. measure retention, shares/comments, profile visits, and follow conversion rather than views alone.
+
+## Release rule
+
+Every new post should:
+- pass `QA_RELEASE_CHECKLIST.md`;
+- have an intentional cover logged in `content/cover_plan.csv`;
+- add something materially new to the channel;
+- fit a content pillar/series or be a documented experiment;
+- have its key creative variables recorded for later review.
+
+Run before scheduling a planned batch:
+
+```bash
+python scripts/lint_content_plan.py
+```
+
+A failed linter result means **HOLD and revise the plan**, not `schedule it anyway`.
+
+## Current operating model
+
+- Publishing timezone: `America/New_York`
+- Primary scheduler: Metricool
+- Native TikTok editor: preferred for native TTS/sounds where required
+- Footage: kept outside the repository when files are too large; repo stores source inventory, asset identifiers, editorial decisions, and performance evidence
+- Default cadence: up to two posts/day only when quality supports it
+
+## Core principle
+
+**We are building a creator brand, not maximizing upload count.**
+
+If a piece is weak, repetitive, misleading, visually generic, poorly sourced, or below the release threshold, re-cut it, redesign it, source better supporting creative, or do not publish it.
