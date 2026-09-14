@@ -1,0 +1,28 @@
+name: Content Quality Gate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/cover_plan.csv'
+      - 'scripts/lint_content_plan.py'
+      - '.github/workflows/content-quality.yml'
+  pull_request:
+    paths:
+      - 'content/cover_plan.csv'
+      - 'scripts/lint_content_plan.py'
+
+jobs:
+  lint-content-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Lint cover plan
+        run: python scripts/lint_content_plan.py
