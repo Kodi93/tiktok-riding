@@ -1,5 +1,5 @@
-observed_at,post_id,asset,format,length_s,views,likes,comments,shares,new_followers,avg_watch_s,completion_rate,source,confidence,notes
-2026-09-14,baseline-01,unidentified,existing,42,99,,,,,,,TikTok Studio,observed,"Recent visible post; exact post ID not captured"
-2026-09-14,baseline-02,unidentified,existing,12,45,1,,,,,,,TikTok Studio,observed,"Recent visible post; exact post ID not captured"
-2026-09-13,7685143484998618382,unknown,existing,,,,,,,,,,Metricool,observed,"Published: The long way home always wins. URL: https://www.tiktok.com/@zeph.rides.wv/video/7685143484998618382"
-2026-09-14,7685391154296261901,unknown,existing,,,,,,,,,,Metricool,observed,"Published: No destination. Just one more corner. URL: https://www.tiktok.com/@zeph.rides.wv/video/7685391154296261901"
+observed_at,observation_window,post_id,asset,series,format,length_s,hook_type,cover_family,views,likes,comments,shares,saves,profile_visits,new_followers,avg_watch_s,completion_rate,for_you_pct,source,confidence,experiment_id,notes
+2026-09-14,,baseline-01,unidentified,,existing,42,,,99,,,,,,,,,,,TikTok Studio,observed,,"Recent visible post; exact post ID not captured"
+2026-09-14,,baseline-02,unidentified,,existing,12,,,45,1,,,,,,,,,,TikTok Studio,observed,,"Recent visible post; exact post ID not captured"
+2026-09-13,,7685143484998618382,unknown,,existing,,,,,,,,,,,,,,,Metricool,observed,,"Published: The long way home always wins. URL: https://www.tiktok.com/@zeph.rides.wv/video/7685143484998618382"
+2026-09-14,,7685391154296261901,unknown,,existing,,,,,,,,,,,,,,,Metricool,observed,,"Published: No destination. Just one more corner. URL: https://www.tiktok.com/@zeph.rides.wv/video/7685391154296261901"
