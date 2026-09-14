@@ -97,6 +97,17 @@ Before scheduling:
 - The asset has not already been scheduled in the same seven-day window.
 - The exact asset path and caption are recorded in content/calendar.md.
 
+## Plotting progress
+
+After updating analytics/metrics.csv, run:
+
+~~~bash
+python scripts/analyze_metrics.py
+python scripts/build_dashboard.py
+~~~
+
+Open analytics/dashboard.html locally or from the checked-out repository. The dashboard is descriptive, not a prediction: it plots only recorded values and leaves missing metrics blank. Use the plot with the weekly review to compare hooks within the same format.
+
 ## Decision log
 
 When a clip wins or loses, record why. Examples:
