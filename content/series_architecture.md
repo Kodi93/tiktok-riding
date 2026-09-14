@@ -92,6 +92,25 @@ Do not make unsupported technical claims. Where a factual spec matters, verify i
 **Visual:** cluster, controls, lighting, wheel/brake, fairing, mirror, startup, gloves, fuel, reflections  
 **Use:** excellent bridge between road-heavy posts in the grid
 
+## 11. Meme Brain / Reaction Inserts
+
+**Job:** relatable humor and expressive reaction without face-cam; preserve the helmet-on identity while giving the edit a strong human punchline  
+**Length:** 6–12s  
+**Structure:** setup -> real decision/event -> 0.35–1.25s reaction insert -> immediate real-footage payoff  
+**Visual:** original Zeph impact cards, meters, fake navigation, stamps, helmet/bike animation, or other concise meme language  
+**Cover:** the real decision/reveal frame whenever possible rather than a generic meme screenshot  
+**Reference:** `content/meme_reaction_system.md`
+
+Signature example: rider says he is heading home, wife asks if he is coming home, a tempting back road appears, the rider commits to a hard left, a brief `OH YEAH`-energy chaos-approval insert lands on the decision, then the edit immediately returns to the back-road footage.
+
+Rules:
+- meme is punctuation, not the content itself;
+- do not rely on ripped branded characters/TV/movie clips;
+- the trigger beat must be real and visible;
+- do not obscure the best motorcycle moment with the reaction graphic;
+- create recurring Zeph-specific reaction assets so the format becomes recognizable rather than looking like random meme spam;
+- test against plain TTS humor for completion, shares, comments, profile visits, and follows.
+
 ## Series rules
 
 - No series gets more than 3 of the last 9 posts unless performance strongly justifies it.
