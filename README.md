@@ -14,6 +14,7 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 - deliberate rider/bike presence;
 - authentic West Virginia/Appalachian character;
 - disciplined analytics and experimentation;
+- intelligent participation in BikeTok culture through native Repost/Stitch/Duet where appropriate;
 - a path toward sustainable follower growth and future monetization.
 
 ## Start here
@@ -31,6 +32,9 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 - [Content Backlog](content/backlog.md)
 - [Publishing Calendar](content/calendar.md)
 - [Recurring Series Architecture](content/series_architecture.md)
+- [Remix / Community Strategy](content/remix_strategy.md)
+- [Remix Source Queue](content/remix_source_queue.csv)
+- [Remix Brief Template](content/remix_brief_template.md)
 - [Hook Library](content/hook_library.md)
 - [Thumbnail / Cover Strategy](content/thumbnail_strategy.md)
 - [Cover Plan](content/cover_plan.csv)
@@ -53,6 +57,7 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 
 ### Rights / integrity
 - [Asset Rights & Sourcing Policy](rights/ASSET_RIGHTS_POLICY.md)
+- [Remix Rights / Platform Reuse Matrix](rights/REMIX_RIGHTS_MATRIX.md)
 
 ## Current strategic correction
 
@@ -64,16 +69,26 @@ Immediate priorities:
 3. establish the helmet-on rider as a recognizable character;
 4. capture a reusable bank of rider, bike, startup, detail, night, and environment shots;
 5. stop publishing repetitive filler simply to satisfy cadence;
-6. measure retention, shares/comments, profile visits, and follow conversion rather than views alone.
+6. pilot a controlled community/remix lane using native TikTok reuse features rather than copied reuploads;
+7. measure retention, shares/comments, profile visits, and follow conversion rather than views alone.
+
+## Content portfolio
+
+Default working mix while the account is young:
+- **70–80% original Zeph Rides** — the core brand, identity, and future monetization library.
+- **20–30% community/remix experiments** — native Reposts, Stitches, Duets, or permission-cleared reactions that add a real Zeph Rides joke, story, comparison, or point of view.
+
+The remix lane exists to introduce people to Zeph Rides, not to replace original production or turn the profile into an aggregator page.
 
 ## Release rule
 
-Every new post should:
+Every new owned/remix post should:
 - pass `QA_RELEASE_CHECKLIST.md`;
-- have an intentional cover logged in `content/cover_plan.csv`;
+- have an intentional cover logged where applicable;
 - add something materially new to the channel;
 - fit a content pillar/series or be a documented experiment;
-- have its key creative variables recorded for later review.
+- have its key creative variables recorded for later review;
+- have clear source/reuse status when third-party material is involved.
 
 Run before scheduling a planned batch:
 
@@ -87,12 +102,13 @@ A failed linter result means **HOLD and revise the plan**, not `schedule it anyw
 
 - Publishing timezone: `America/New_York`
 - Primary scheduler: Metricool
-- Native TikTok editor: preferred for native TTS/sounds where required
+- Native TikTok editor: preferred for native TTS/sounds and required for authentic native Stitch/Duet workflows
 - Footage: kept outside the repository when files are too large; repo stores source inventory, asset identifiers, editorial decisions, and performance evidence
 - Default cadence: up to two posts/day only when quality supports it
+- Community/remix material: primarily discovery/follower-growth content; original one-minute content remains the monetization-prep lane
 
 ## Core principle
 
 **We are building a creator brand, not maximizing upload count.**
 
-If a piece is weak, repetitive, misleading, visually generic, poorly sourced, or below the release threshold, re-cut it, redesign it, source better supporting creative, or do not publish it.
+If a piece is weak, repetitive, misleading, visually generic, poorly sourced, below the release threshold, or depends on somebody else's content without enough new value, re-cut it, redesign it, source better supporting creative, or do not publish it.
