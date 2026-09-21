@@ -1,0 +1,12 @@
+post_id,series,status,views,likes,comments,shares,like_rate,creative_read,decision,next_test
+HB-001,Animated Biker Problems,published,1124,102,,,0.0907,"High-beam visual escalation and clear punchline","Scale the format","Make three hook variants with cleaner first-frame text"
+HUM-001,Animated Biker Problems,published,284,18,2,1,0.0739,"Humor lane has promise but weaker distribution","Tighten the opening","Test a more immediate problem statement"
+POV-BASE,Conventional POV,reviewed,,,,,0.0152,"Road-only posts are materially below the comedy benchmark","Reduce as a default","Pair POV with a story, encounter, or punchline"
+AM-001,Animated Biker Problems,draft,,,,,,"High-beam follow-up local animatic","Ready for human review","Compare hook copy and native TTS"
+AM-002,GPS vs. Rider,briefed,,,,,,"Original animated map gag","Produce","Test eight-minute hook against one-more-corner hook"
+AM-003,Animated Biker Problems,briefed,,,,,,"Infinite-corner loop","Produce","Test loop completion and shares"
+AM-004,Clutch Tribunal,briefed,,,,,,"Graphic courtroom verdict","Produce","Test static-card motion against full-screen video"
+AM-005,Seasonal Chaos,briefed,,,,,,"Deer-season patch-note joke","Produce","Use graphic recreation, not staged danger"
+AM-006,Animated Biker Problems,queued,,,,,,"Fuel-light anxiety","Backlog","Test range anxiety wording"
+AM-007,GPS vs. Rider,queued,,,,,,"Navigation app as unreliable narrator","Backlog","Try comment-led version"
+AM-008,Animated Biker Problems,queued,,,,,,"Weather as DLC","Backlog","Test seasonal timing"

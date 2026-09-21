@@ -121,3 +121,36 @@ A failed linter result means **HOLD and revise the plan**, not `schedule it anyw
 **We are building a creator brand, not maximizing upload count.**
 
 If a piece is weak, repetitive, misleading, visually generic, poorly sourced, below the release threshold, or depends on somebody else's content without enough new value, re-cut it, redesign it, source better supporting creative, or do not publish it.
+
+## Active direction — 2026-09-21
+
+The next growth push is comedy-first animated motorcycle content. The early high-beam concept materially outperformed ordinary road-only material, so the working priority is now:
+
+- **Animated Biker Problems** — 6–10 second rider-problem stories with visual escalation and a hard punchline.
+- **Clutch Tribunal** — graphic-led motorcycle-culture verdicts.
+- **GPS vs. Rider** — route logic turned into short absurdist stories.
+- **WV Road Boss Fight** — public-road features treated as comic game events.
+- **Driver NPC Dialogue** — original or native-commentary reactions with no invented claims about real people.
+
+The hard visual exclusion is now explicit: no house, garage, driveway, residential yard, porch, or recognizable home surroundings in any TikTok or Facebook asset.
+
+New operating documents:
+
+- [Animated Meme Engine](content/ANIMATED_MEME_ENGINE.md)
+- [Animated Meme Queue](content/ANIMATED_MEME_QUEUE.csv)
+- [Animated TTS Pack](content/TTS_ANIMATED_PACK.md)
+- [Separate Facebook Comedy Lane](content/FACEBOOK_COMEDY_LANE.md)
+- [Remix Workflow and Rights Guardrails](rights/REMIX_WORKFLOW.md)
+- [Animated Meme Scorecard](analytics/ANIMATED_MEME_SCORECARD.csv)
+
+The separate Facebook lane is a brand firewall. It receives general motorcycle-culture graphics and clean owned animation, not personal TikTok clips or identity-linked cross-posts.
+
+## Current working release mix
+
+- 50% animated biker-problem originals.
+- 20% Clutch Tribunal cards and motion cards.
+- 15% real public-road encounters and short stories.
+- 10% rider/bike identity or cinematic pieces.
+- 5% native community experiments.
+
+This is a quality-controlled mix, not permission to publish filler. The release QA gate and rights policy still control every post.

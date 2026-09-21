@@ -226,3 +226,15 @@ The pattern that should generate future posts in this series:
 `relatable rider problem -> escalating short lines -> exaggerated punchline -> direct rider question`
 
 Keep copy native to Facebook: conversational, easy to skim, and comment-oriented. Do not force a link, hashtag stack, or TikTok-style caption onto these posts.
+
+## Comedy-first update — added 2026-09-21
+
+The Facebook queue now favors:
+
+- Clutch Tribunal cards;
+- general biker-culture questions;
+- clean, owned animated memes;
+- licensed or public-domain support assets;
+- native sharing when pointing viewers to another creator.
+
+Do not move personal TikTok clips, TikTok handles, profile screenshots, watermarked exports, or identity-linked captions into this queue. Every Facebook asset must also pass the no-house, no-garage, no-driveway setting rule.

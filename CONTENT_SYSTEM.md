@@ -178,3 +178,18 @@ For winners, record **why** they worked. For weak posts, diagnose separately:
 - distribution/sample size.
 
 The system succeeds when the feed becomes more visually varied, more recognizable, and more effective over time — not merely when upload count increases.
+
+## Active mode — comedy-first animated testing
+
+Beginning 2026-09-21, the default short-form selection rule is:
+
+- If a road clip has no story, encounter, or joke, do not publish it as a standalone POV post.
+- Route it into Animated Biker Problems, GPS vs. Rider, WV Road Boss Fight, or Clutch Tribunal.
+- Build the first second around the problem, not a slow scenic introduction.
+- Pay off by approximately 5–6 seconds in a 6–10 second test.
+- Use the smallest number of visual effects that makes the escalation obvious.
+- Keep a clean original export for Facebook when a TikTok-native sound is used.
+
+The active queue and scripts live in content/ANIMATED_MEME_QUEUE.csv and content/TTS_ANIMATED_PACK.md. The decision log lives in analytics/ANIMATED_MEME_SCORECARD.csv.
+
+The home/garage/driveway exclusion is a mandatory QA check. An otherwise good edit is HOLD if the background violates it.

@@ -140,3 +140,22 @@ These are not quotas. They are a guardrail against sameness.
 The benchmark is not the channel's previous post. The benchmark is whether the piece would look credible beside established motorcycle creators with strong editing, branding, and intentional feeds.
 
 Do not protect mediocre work because time has already been spent on it. Re-cut, reshoot, redesign the cover, or retire it.
+
+## Hard environment exclusion — added 2026-09-21
+
+Zeph Rides must never use a house, garage, driveway, residential yard, porch, or recognizable home surroundings as a content setting. This applies to original footage, generated visuals, meme cards that imply a location, thumbnails, and Facebook exports.
+
+Use public roads, scenic pull-offs, legal parking areas away from home, bridges, forests, overlooks, night roads, bike details, and graphic-only scenes. If a source frame includes a home environment, crop it out, replace it with a graphic treatment, or do not use the frame.
+
+## Comedy-first portfolio correction
+
+The feed now prioritizes short animated and meme-like stories because the high-beam benchmark showed stronger early audience response than road-only POV. The rider remains anonymous, helmeted, and visor-down. The joke is the personality layer.
+
+The preferred post should communicate:
+
+1. a recognizable rider problem;
+2. a fast visual escalation;
+3. one punchline worth sharing;
+4. a loop or hard cut that encourages rewatching.
+
+Comedy may be absurd, but it must not be mean-spirited, unsafe, deceptive, or dependent on another creator's content.

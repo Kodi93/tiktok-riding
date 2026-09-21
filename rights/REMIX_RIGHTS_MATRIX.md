@@ -49,3 +49,18 @@ For any non-original source used beyond a simple native Repost, record in `conte
 - our added-value concept;
 - final post URL;
 - any attribution provided.
+
+## Remix decision rule — added 2026-09-21
+
+The default community action is native Stitch, Duet, Repost, or a permission-cleared response. Download-and-reupload is not an acceptable default workflow.
+
+Before any community asset enters production, record:
+
+- source URL and creator;
+- native reuse option;
+- rights or permission status;
+- the exact new joke, explanation, comparison, or response Zeph adds;
+- planned platform and attribution;
+- whether the asset remains eligible for the intended monetization lane.
+
+If the new value cannot be explained in one sentence, skip the source and build an original graphic or riding edit instead. See rights/REMIX_WORKFLOW.md.

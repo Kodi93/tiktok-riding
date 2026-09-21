@@ -122,3 +122,31 @@ Before scheduling a batch, create a rough 3x3 mental or physical grid and ask:
 - Is there at least one image that makes someone stop and inspect the profile?
 
 If the answer is weak, the batch is not ready.
+
+## Animated meme language — added 2026-09-21
+
+The animated lane is deliberately graphic and fast, but it must still look like Zeph Rides.
+
+### Approved motion vocabulary
+
+- camera push or snap zoom;
+- lime beam bloom;
+- notification pop;
+- map spin;
+- quest marker;
+- meter or patch-note card;
+- freeze frame;
+- comic impact flash;
+- one clean shake on the punchline.
+
+### Text treatment
+
+- problem text: white on charcoal;
+- verdict or impossible escalation: lime on charcoal or black on lime;
+- one idea per card;
+- large enough for a phone held at arm's length;
+- never place critical text under the TikTok or Facebook interface zones.
+
+### Background rule
+
+Graphic animation is preferred when it protects privacy or avoids a weak location. Do not use a house, garage, driveway, residential yard, porch, or recognizable home surroundings merely because the source clip is convenient.
