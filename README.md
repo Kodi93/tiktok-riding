@@ -60,6 +60,9 @@ Build Zeph Rides into a recognizable motorcycle creator brand with:
 - [Metrics Analyzer](scripts/analyze_metrics.py)
 - [Dashboard Builder](scripts/build_dashboard.py)
 - [Content Plan Linter](scripts/lint_content_plan.py)
+- [Direct TikTok Studio SOP](DIRECT_TIKTOK_STUDIO_SOP.md)
+- [Direct Native Upload Queue](content/DIRECT_UPLOAD_QUEUE.csv)
+- [TikTok Master Validator](scripts/validate_tiktok_master.sh)
 
 ### Rights / integrity
 - [Asset Rights & Sourcing Policy](rights/ASSET_RIGHTS_POLICY.md)
@@ -110,7 +113,8 @@ A failed linter result means **HOLD and revise the plan**, not `schedule it anyw
 ## Current operating model
 
 - Publishing timezone: `America/New_York`
-- Primary scheduler: Metricool
+- Primary publisher/scheduler: authenticated TikTok Studio using the [direct native workflow](DIRECT_TIKTOK_STUDIO_SOP.md); no third-party plan is in the critical path
+- Metricool: legacy queue history only until the already-scheduled items expire; do not add new posts
 - Native TikTok editor: preferred for native TTS/sounds and required for authentic native Stitch/Duet workflows
 - Footage: kept outside the repository when files are too large; repo stores source inventory, asset identifiers, editorial decisions, and performance evidence
 - Default cadence: up to two posts/day only when quality supports it
