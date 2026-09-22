@@ -126,35 +126,31 @@ A failed linter result means **HOLD and revise the plan**, not `schedule it anyw
 
 If a piece is weak, repetitive, misleading, visually generic, poorly sourced, below the release threshold, or depends on somebody else's content without enough new value, re-cut it, redesign it, source better supporting creative, or do not publish it.
 
-## Active direction — 2026-09-21
+## Active direction — 2026-09-22
 
-The next growth push is comedy-first animated motorcycle content. The early high-beam concept materially outperformed ordinary road-only material, so the working priority is now:
+The channel is now **Z7 Hybrid and public-road identity first**. Memes remain useful, but they are punctuation—not the whole feed and not a substitute for strong footage.
 
-- **Animated Biker Problems** — 6–10 second rider-problem stories with visual escalation and a hard punchline.
-- **Clutch Tribunal** — graphic-led motorcycle-culture verdicts.
-- **GPS vs. Rider** — route logic turned into short absurdist stories.
-- **WV Road Boss Fight** — public-road features treated as comic game events.
-- **Driver NPC Dialogue** — original or native-commentary reactions with no invented claims about real people.
+The working priority is:
 
-The hard visual exclusion is now explicit: no house, garage, driveway, residential yard, porch, or recognizable home surroundings in any TikTok or Facebook asset.
+- **Z7 Hybrid identity** — make the unusual Kawasaki platform recognizable through attitude, sound, cockpit detail, and honest road use.
+- **Cinematic public-road edits** — fast hooks, purposeful cuts, clean engine audio, restrained graphics, and a real visual payoff.
+- **WV ride stories and encounters** — distinct roads, moments, and observations rather than interchangeable centerline footage.
+- **Machine detail and hybrid curiosity** — accurate, specific pieces that answer what viewers actually want to know.
+- **Occasional comedy / animated memes** — only when the joke is sharp enough to share and the execution clears the same quality bar as a flagship edit.
+- **Native community experiments** — Repost, Stitch, Duet, or permission-cleared remix when Zeph adds a real point of view.
 
-New operating documents:
+The production path must work from owned footage, local editing, and direct TikTok Studio publishing. Third-party generators and editors are optional tools, never a dependency for cadence or quality.
 
-- [Animated Meme Engine](content/ANIMATED_MEME_ENGINE.md)
-- [Animated Meme Queue](content/ANIMATED_MEME_QUEUE.csv)
-- [Animated TTS Pack](content/TTS_ANIMATED_PACK.md)
-- [Separate Facebook Comedy Lane](content/FACEBOOK_COMEDY_LANE.md)
-- [Remix Workflow and Rights Guardrails](rights/REMIX_WORKFLOW.md)
-- [Animated Meme Scorecard](analytics/ANIMATED_MEME_SCORECARD.csv)
+The hard visual exclusion remains explicit: no house, garage, driveway, residential yard, porch, or recognizable home surroundings in any TikTok or Facebook asset.
 
-The separate Facebook lane is a brand firewall. It receives general motorcycle-culture graphics and clean owned animation, not personal TikTok clips or identity-linked cross-posts.
+The Facebook lane remains separate. It can lean somewhat more general and humorous, but it does not receive personal TikTok footage by default and should not become a mirror feed.
 
 ## Current working release mix
 
-- 50% animated biker-problem originals.
-- 20% Clutch Tribunal cards and motion cards.
-- 15% real public-road encounters and short stories.
-- 10% rider/bike identity or cinematic pieces.
-- 5% native community experiments.
+- 40% cinematic Z7 Hybrid / public-road identity.
+- 25% ride stories, encounters, and distinctive West Virginia road moments.
+- 15% machine detail, hybrid explainers, or cockpit-focused curiosity.
+- 15% comedy, animation, or meme-led originals.
+- 5% native community/remix experiments.
 
-This is a quality-controlled mix, not permission to publish filler. The release QA gate and rights policy still control every post.
+This is a directional portfolio, not a quota that justifies filler. A weak meme is held. A generic road clip is held. Every release still passes the QA gate and must add something materially new.

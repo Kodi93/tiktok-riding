@@ -1,10 +1,10 @@
 # Zeph Rides — Animated Meme Engine
 
-Status: active direction, 2026-09-21  
+Status: secondary creative lane, updated 2026-09-22  
 Primary account: @zeph.rides.wv  
-Primary objective: make the next 14 days unmistakably funnier, more animated, and more rewatchable than the early road-POV feed.
+Primary objective: produce occasional, genuinely shareable rider humor without displacing the Z7 Hybrid identity and public-road core.
 
-## Why this is the priority
+## Why this lane still matters
 
 The high-beam concept is the current creative benchmark:
 
@@ -14,7 +14,7 @@ The high-beam concept is the current creative benchmark:
 
 A separate humor variant reached 284 views, 18 likes, 2 comments, and 1 share with a 7.39% like rate. Conventional POV material was materially weaker at approximately 1.52% in the same early review.
 
-This is a small sample, not a promise of virality. It is still strong enough to justify a controlled shift toward short rider-problem stories with a visual escalation and a clean punchline.
+This is a small sample, not a promise of virality. It supports keeping short rider-problem stories in the portfolio, but not making static or animated memes the default feed.
 
 ## Hard creative boundaries
 
@@ -30,7 +30,7 @@ These are release requirements, not optional preferences.
 
 Approved visual environments are public roads, scenic pull-offs, legal parking areas away from home, forests, bridges, overlooks, weather, road signs, night roads, bike details, and graphic-only backgrounds.
 
-## The flagship format: Animated Biker Problems
+## The strongest meme format: Animated Biker Problems
 
 Length: 6–10 seconds for reach tests.  
 Structure:
@@ -128,17 +128,15 @@ Examples:
 - a car appears to be impatient;
 - the rider's helmeted internal monologue answers.
 
-## Content mix for the next 14 days
+## Place in the current portfolio
 
-This is a working mix, not a quota that justifies weak posts.
+This is a supporting lane, not the release calendar.
 
-- 50% Animated Biker Problems and GPS vs. Rider.
-- 20% Clutch Tribunal meme cards or short verdict edits.
-- 15% real encounters and short stories from public-road footage.
-- 10% cinematic rider/bike identity pieces.
-- 5% native TikTok community experiments such as Stitch or Duet.
-
-Keep one separate lane of clearly original 60+ second videos for future monetization eligibility. Short community remixes are discovery experiments, not the ownership foundation of the account.
+- Aim for roughly 15% comedy, animation, or meme-led originals across a balanced release window.
+- Prioritize Z7 Hybrid identity, cinematic public-road footage, ride stories, and machine detail around it.
+- Produce one meme at a time and judge it on hook, escalation, payoff, shares, and rewatches.
+- Do not publish a meme simply because a slot exists or because a tool produced an output.
+- Keep separate, clearly original 60+ second videos for depth and future monetization readiness.
 
 ## Sound design
 
@@ -169,9 +167,9 @@ If a post is only “a cool motorcycle picture with text,” route it to the Clu
 
 ## Production order
 
-1. Start with AM-001 high-beam follow-up and AM-002 GPS vs. Rider.
-2. Produce three variants of each with different first-frame copy, not duplicate uploads.
-3. Use the best-performing hook to decide the next five briefs.
-4. Build the deer, one-more-corner, and fuel-light concepts next.
-5. Reserve paid generative-video credits for concepts that already passed the local animatic test.
-6. Log every result in analytics/ANIMATED_MEME_SCORECARD.csv.
+1. Start from a rider truth, comment, or observed account pattern—not a random template.
+2. Build the joke and timing as a local animatic before spending time or credits elsewhere.
+3. Produce one strong execution, run the release gate, and get owner review.
+4. Promote a format only after published results beat comparable account baselines.
+5. Do not depend on a paid or free external generator, editor, or scheduler. External tools are optional accelerators only.
+6. Log every published result in `analytics/ANIMATED_MEME_SCORECARD.csv`.

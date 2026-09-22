@@ -179,17 +179,19 @@ For winners, record **why** they worked. For weak posts, diagnose separately:
 
 The system succeeds when the feed becomes more visually varied, more recognizable, and more effective over time — not merely when upload count increases.
 
-## Active mode — comedy-first animated testing
+## Active mode — Z7 identity first
 
-Beginning 2026-09-21, the default short-form selection rule is:
+Beginning 2026-09-22, the default short-form selection rule is:
 
-- If a road clip has no story, encounter, or joke, do not publish it as a standalone POV post.
-- Route it into Animated Biker Problems, GPS vs. Rider, WV Road Boss Fight, or Clutch Tribunal.
-- Build the first second around the problem, not a slow scenic introduction.
-- Pay off by approximately 5–6 seconds in a 6–10 second test.
-- Use the smallest number of visual effects that makes the escalation obvious.
-- Keep a clean original export for Facebook when a TikTok-native sound is used.
+- Lead with the Kawasaki Z7 Hybrid, the rider's road perspective, or a specific West Virginia moment.
+- A public-road clip needs a real hook, progression, sound moment, visual payoff, observation, or story; a different sentence over generic POV is not enough.
+- Use clean engine/road audio and restrained graphics as the default. TTS and native sounds are selective tools, not mandatory layers.
+- Use comedy or animation occasionally when the joke is immediately legible, escalates, and earns a share. Do not let motion-graphic cards dominate the feed.
+- Keep the first second purposeful and finish the payoff as early as the idea allows.
+- Build masters locally from owned footage so production does not depend on an external generator, credit balance, or third-party scheduler.
+- Use direct authenticated TikTok Studio for upload and scheduling. Keep Facebook as a distinct editorial lane rather than a mirror.
+- If an owner rejects an asset, mark it `REJECTED_QUALITY_HOLD`; a successful upload or platform check never overrides the creative decision.
 
-The active queue and scripts live in content/ANIMATED_MEME_QUEUE.csv and content/TTS_ANIMATED_PACK.md. The decision log lives in analytics/ANIMATED_MEME_SCORECARD.csv.
+The animated meme queue remains an idea bank and secondary test lane. It is not the default release calendar.
 
 The home/garage/driveway exclusion is a mandatory QA check. An otherwise good edit is HOLD if the background violates it.
