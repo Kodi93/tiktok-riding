@@ -23,6 +23,10 @@ The sprint is deliberately built around premises riders immediately recognize, f
 
 The weak visible signal is sharing. The next batch therefore treats "would one rider send this to another?" as a release gate.
 
+## Budget constraint
+
+**Zero new spend.** Do not require Promote, paid video generation, paid stock, or any new subscription/credit purchase. Build from owned riding footage, original graphics, native TikTok/TikTok Studio capabilities, TTS, captions, motion graphics, and existing repository assets.
+
 ## Batch rules
 
 1. Hook must land on frame 0 or within the first 0.5s.
@@ -33,7 +37,7 @@ The weak visible signal is sharing. The next batch therefore treats "would one r
 6. Reuse structure, not exact jokes. Each concept needs a distinct setup/payoff.
 7. Use the Zeph lime/black visual language as an accent, not as a full-screen template on every post.
 8. At least four cover families across every nine posts.
-9. Promote only after the creative earns it or when running a tightly bounded acquisition test.
+9. No new Promote spend. This sprint is organic-only unless the user explicitly changes the budget constraint.
 10. Capture metrics at 2h, 24h, 72h when available.
 
 ## P0 production queue
