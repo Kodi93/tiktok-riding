@@ -6,12 +6,15 @@
 |---|---|---|
 | Convert feed mix to 70% 6–12s scenario humor | IN PROGRESS | next 14-day queue follows rapid-growth mix |
 | Lock 10 AM / 6 PM primary windows | ACTIVE | strong posts target current Metricool audience peaks |
-| Build 20-post Animated Biker Problems bank | IN PROGRESS | hooks/payoffs distinct; no filler |
-| Build Clutch Tribunal recurring series | IN PROGRESS | 6+ distinct cases ready |
-| Build Z7 Hybrid differentiation series | READY | 6+ myth/quirk/comment concepts ready |
+| Build 20-post rapid-growth bank | DONE | AM-035 through AM-054 added with distinct hooks/payoffs |
+| Build Clutch Tribunal recurring series | DONE | 6 distinct cases ready; AM-040 and AM-045 fully briefed |
+| Build Z7 Hybrid differentiation series | IN PROGRESS | AM-046 through AM-050 queued; AM-048 fully briefed |
 | Use comment replies as optional third posts | READY | only real comments with useful/funny response |
 | Review every post at 24h | ACTIVE | winners spawn 2–3 adjacent concepts |
 | Keep 60s+ originals to ~2/week | ACTIVE | monetization prep without displacing reach posts |
+| Brief weather winner follow-up | DONE | AM-036 production brief committed |
+| Refresh Sep 29–Oct 5 calendar | DONE | current 10 AM / 6 PM rapid-growth queue committed |
+| Check Sep 28 6 PM Visor Boss delivery | ACTIVE | confirm publish and capture 2h metrics |
 
 
 ## Native TikTok monetization
