@@ -54,3 +54,13 @@ Use this file for decisions that materially change the content system. Keep entr
 **Reason/evidence:** the acquisition cost is usable, but a channel that requires proportionally increasing spend to increase reach will not compound into the intended media asset.
 
 **Follow-up:** tag promoted tests separately in analytics and compare their next-post organic lift against non-promoted baselines.
+
+## 2026-09-28 — No additional paid budget
+
+**Observation:** the user does not want to add any more budget to TikTok growth or external video-generation services.
+
+**Decision:** all growth work proceeds on a zero-new-spend basis until the user explicitly changes that constraint. Pause new Promote spend and do not depend on paid third-party generation credits. Use existing footage, original graphics, native TikTok tools, repository automation, and no-cost editing/generation paths already available.
+
+**Reason/evidence:** the account now needs to prove that organic reach can compound from the audience already acquired. Additional paid reach would obscure that test and violate the current budget constraint.
+
+**Follow-up:** measure organic-only performance for the Sep 28 shareability sprint and keep paid historical metrics separated from new organic results.
