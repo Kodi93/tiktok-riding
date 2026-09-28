@@ -116,3 +116,39 @@ Before approving a hook, ask:
 3. Does the viewer need the next second to resolve something?
 4. Is the wording natural enough that a real rider might say it?
 5. Is this materially different from the last few posts?
+
+
+## Rapid-growth frame-zero patterns — 2026-09-28
+
+These patterns are promoted because the account's strongest current posts are short, premise-first, scenario-driven clips.
+
+### Immediate-conflict hooks
+- `HE FLASHED ME AGAIN.`
+- `HE DIDN'T WAVE BACK.`
+- `THE GPS SAID TURN AROUND.`
+- `I CLEANED THE VISOR YESTERDAY.`
+- `WEATHER APP: 0% RAIN.`
+
+### Split-identity hooks
+- `NORMAL PEOPLE: COLD / RIDERS: CHECKING THE FORECAST`
+- `NORMAL ROUTE / MOTORCYCLE ROUTE`
+- `ONE MOD / THE RECEIPT`
+
+### Series hooks
+- `CLUTCH TRIBUNAL — CASE 00X`
+- `WV ROAD PATCH NOTES`
+- `HYBRID LIFE: QUESTION #00X`
+
+### Timing rule
+For 6–12 second reach posts:
+- readable premise by 0.5s;
+- escalation by 2–4s;
+- payoff by 5–8s;
+- loop or hard cut before the joke becomes stale.
+
+### Disallowed growth crutches
+- no logo-first intros;
+- no slow scenic setup before the premise;
+- no generic `wait for it`;
+- no engagement bait disconnected from the actual joke;
+- no repeating the exact same hook language across consecutive posts.
