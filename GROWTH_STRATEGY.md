@@ -34,7 +34,18 @@ Interpretation:
 - organic shareability and profile conversion are now the primary bottlenecks;
 - the next growth phase must make organic reach compound faster than paid spend;
 - scenario-driven biker comedy, animated/motion-graphic concepts, recurring series, and distinctive rider/bike identity should carry more of the feed than generic scenic POV;
-- Promote should be used as a bounded test accelerator, not as the primary growth engine.
+- No additional Promote spend is authorized. Historical Promote data remains useful as evidence, but the active growth sprint is organic-only until the user explicitly changes the budget constraint.
+
+## Zero-new-spend operating constraint
+
+Effective 2026-09-28:
+- no new TikTok Promote budget;
+- no paid external video-generation credits;
+- no paid stock/media acquisition unless separately approved later;
+- prioritize existing owned riding footage, original generated/static art available in the current toolchain, native TikTok/TikTok Studio editing, TTS, motion graphics, captions, comment replies, and reusable repository assets;
+- evaluate the next sprint on organic distribution only.
+
+This makes the next milestone more meaningful: growth must come from stronger creative and repeat viewing rather than purchased reach.
 
 ### Next-stage targets
 
