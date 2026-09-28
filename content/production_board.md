@@ -1,5 +1,19 @@
 # Production Board
 
+## Rapid growth execution
+
+| Work item | Status | Definition of done |
+|---|---|---|
+| Convert feed mix to 70% 6–12s scenario humor | IN PROGRESS | next 14-day queue follows rapid-growth mix |
+| Lock 10 AM / 6 PM primary windows | ACTIVE | strong posts target current Metricool audience peaks |
+| Build 20-post Animated Biker Problems bank | IN PROGRESS | hooks/payoffs distinct; no filler |
+| Build Clutch Tribunal recurring series | IN PROGRESS | 6+ distinct cases ready |
+| Build Z7 Hybrid differentiation series | READY | 6+ myth/quirk/comment concepts ready |
+| Use comment replies as optional third posts | READY | only real comments with useful/funny response |
+| Review every post at 24h | ACTIVE | winners spawn 2–3 adjacent concepts |
+| Keep 60s+ originals to ~2/week | ACTIVE | monetization prep without displacing reach posts |
+
+
 ## Native TikTok monetization
 
 | Work item | Owner lane | Status | Definition of done |
