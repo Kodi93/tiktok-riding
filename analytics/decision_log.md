@@ -34,3 +34,23 @@ Use this file for decisions that materially change the content system. Keep entr
 **Decision:**  
 **Reason/evidence:**  
 **Follow-up:**
+
+## 2026-09-28 — Optimize for shares, repeat viewers, and organic compounding
+
+**Observation:** the latest 28-day account snapshot shows 12.1K post views, 506 likes, 23 comments, 4 shares, and 89 profile views. Promote produced 2.44K views and 157 followers on $43 spend, but organic sharing remains the weakest visible downstream signal.
+
+**Decision:** shift the next growth sprint away from generic scenic POV volume and toward scenario-driven biker comedy, animated/motion-graphic jokes, recurring character/series identity, and strong riding clips that contain a clear premise or payoff. Every P0 concept must contain at least one explicit share/reply/repeat-view reason.
+
+**Reason/evidence:** paid follower conversion is encouraging (~6.43% of promoted views; ~$0.274/follower), but meaningful scale requires organic distribution to grow faster than paid spend. Shares are currently only ~0.03% of the 12.1K overall view snapshot, so shareability is the clearest creative bottleneck.
+
+**Follow-up:** `content/batches/2026-09-28-share-sprint.md`, `content/ANIMATED_MEME_QUEUE.csv`, `GROWTH_STRATEGY.md`, and the Sep 28 rows in `analytics/metrics.csv`.
+
+## 2026-09-28 — Promote is a test accelerator, not the growth engine
+
+**Observation:** $43 of Promote generated 157 followers and 2.44K views.
+
+**Decision:** continue Promote only on creative that already demonstrates strong audience response or as a tightly bounded test. Do not scale spend simply to inflate top-line views. Judge success by post-Promote organic views, repeat viewers, shares, comments, profile visits, and subsequent follower activity.
+
+**Reason/evidence:** the acquisition cost is usable, but a channel that requires proportionally increasing spend to increase reach will not compound into the intended media asset.
+
+**Follow-up:** tag promoted tests separately in analytics and compare their next-post organic lift against non-promoted baselines.
