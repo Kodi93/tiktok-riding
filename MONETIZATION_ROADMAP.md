@@ -3,6 +3,33 @@
 ## Principle
 Monetization is built on repeatable audience attention, recognizable identity, and trust. Revenue should not distort the channel before the channel has a reason for people to follow.
 
+## Immediate revenue mode — 2026-09-28
+
+The account is still too small to rely on TikTok's direct view payouts, so revenue work starts **before** platform-payout eligibility.
+
+Priority order:
+1. **Direct paid UGC / micro-sponsorships:** sell original motorcycle vertical content to local/regional dealerships, gear shops, service businesses, and powersports brands. This has no TikTok follower minimum and is the fastest plausible zero-new-spend cash lane.
+2. **LIVE Gifts, if the account's LIVE Gifts switch is actually enabled:** use structured rider Q&A / Z7 Hybrid / WV-road LIVE sessions. Do not assume ordinary LIVE access automatically means Gifts are enabled.
+3. **TikTok Shop affiliate at eligibility:** current U.S. policy allows Affiliate Creator self-application at 1,000 followers, subject to identity/account checks and product-category qualification.
+4. **Creator Rewards later:** preserve a lane of original 60+ second content for the 10,000-follower / 100,000-views-in-30-days gate.
+5. **Video Gifts later:** current published requirement is 10,000 followers plus the other account requirements.
+
+### Revenue rule
+
+A revenue test is only counted as successful when cash/commission is actually earned. Free product, discounts, samples, and store credit are tracked separately and do not count as profit.
+
+### Current sponsor offer
+
+Use a low-friction paid pilot rather than free exposure:
+- $150: one original 15–30 second vertical TikTok tailored to the business/product/service;
+- includes publication on Zeph Rides when editorial fit is good;
+- includes 30-day organic social repost rights for the sponsor;
+- sponsored relationship is disclosed;
+- no paid boosting is required;
+- additional usage, ad rights, exclusivity, travel, or extra deliverables are quoted separately.
+
+This is a starting test price, not a permanent rate. Raise it when repeatable organic reach and conversion improve.
+
 ## Phase 0 — Proof of content-market fit
 Primary objective: prove that Zeph Rides can repeatedly escape the small initial distribution plateau.
 
