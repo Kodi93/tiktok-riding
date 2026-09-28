@@ -1,5 +1,19 @@
 # Production Board
 
+## 2026-09-28 Shareability Sprint
+
+| Work item | Owner lane | Status | Definition of done |
+|---|---|---|---|
+| Record Sep 28 account baseline | Analytics | DONE | 12.1K overall views + Promote funnel recorded in `analytics/metrics.csv` |
+| Lock shareability strategy | Strategy | DONE | `content/batches/2026-09-28-share-sprint.md` committed |
+| Produce SS-001 high-beam sequel | Edit/animation | IN PROGRESS | 7-9s master + cover + QA pass |
+| Produce SS-002 biker-wave tribunal | Edit/animation | READY | 6-8s master + cover + QA pass |
+| Produce SS-003 55-degree rider joke | Edit/animation | READY | 7-9s master + cover + QA pass |
+| Prepare next 9 posts | Creative | READY | SS-004 through SS-012 briefed and prioritized |
+| Capture 2h/24h/72h metrics | Analytics | OPEN | organic/promoted distinction preserved |
+
+
+
 ## P0 — Do next
 
 | Work item | Owner lane | Status | Definition of done |
