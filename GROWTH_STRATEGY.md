@@ -71,6 +71,87 @@ Every P0 concept must answer:
 3. Why would they send it to another rider?
 4. Why would they recognize the next Zeph Rides post?
 
+## Rapid-growth mode — 2026-09-28
+
+Metricool performance data from 2026-09-13 through 2026-09-28 gives a clear direction:
+
+- <=12s posts: 13 posts, 6,057 total views, **466 average views**, 338 median;
+- 13–20s posts: 17 posts, 4,643 total views, **273 average views**, 252 median;
+- 60s+ posts: 9 posts, 1,963 total views, **218 average views**, 189 median;
+- the two highest-view posts are both 8 seconds: 1,584 views and 1,131 views;
+- the top 8s performers are scenario/humor concepts rather than generic scenic POV.
+
+### Operating decision
+
+For rapid organic growth, maximize the number of high-quality attempts in the format already outperforming:
+
+- **70%:** 6–12s scenario comedy / animated biker problems / recurring meme series;
+- **20%:** 12–20s real riding moments with a clear setup, reveal, encounter, or punchline;
+- **10%:** deliberate experiments, replies, search-led ideas, or Z7-specific identity content.
+
+60+ second originals remain important for future native monetization, but they are **not the main growth engine** right now. Limit them to roughly two high-quality originals per week until their retention improves.
+
+### Cadence
+
+Default rapid-growth cadence:
+- **10:00 AM ET:** primary reach post;
+- **6:00 PM ET:** second primary reach post;
+- **12:00 PM ET optional:** comment reply, trend, search-gap response, or exceptionally strong third post.
+
+Do not fill the optional slot with generic footage. Two excellent posts beat three repetitive ones.
+
+Metricool's current audience-activity data places the strongest recurring windows around 10 AM, noon, and 6 PM ET, with Wednesday through Friday particularly strong.
+
+### Series concentration
+
+Do not spread effort evenly across dozens of concepts. Concentrate on four recognizable series:
+1. **Animated Biker Problems** — fastest repeatable reach engine.
+2. **Clutch Tribunal / Biker Court** — opinion + comment engine.
+3. **WV Road Logic** — local identity + relatable riding humor.
+4. **Hybrid Life / Z7 Myths** — differentiated niche ownership.
+
+Each winning post should immediately spawn 3 adjacent concepts while the format is still warm.
+
+### Hook rule
+
+Every growth post must communicate the premise on frame 0. Preferred structures:
+- "WHEN..."
+- "POV:"
+- "HE DID..."
+- "NORMAL PEOPLE / RIDERS"
+- "THE GPS SAID..."
+- "COMMENT: ..."
+
+No logo intro. No scenic establishing shot before the joke.
+
+### Payoff rule
+
+For 6–12s growth posts:
+- premise by 0.5s;
+- escalation by 2–4s;
+- payoff by 5–8s;
+- hard end or seamless loop by 8–12s.
+
+### Rapid iteration rule
+
+At 24 hours:
+- if a post is >=1.5x recent comparable median, make 2–3 adjacent concepts;
+- if it gets strong likes/comments but weak views, preserve the premise and rewrite the opening frame;
+- if it gets views but no interaction/profile behavior, do not over-clone it;
+- if a series produces 3 materially weak executions, pause and rework rather than flooding.
+
+### Search discovery
+
+Use TikTok Creator Search Insights as an idea source for motorcycle/Z7/WV rider queries and content gaps. Search-led posts must still be entertaining; SEO wording is not allowed to replace a hook.
+
+### Zero-spend rule
+
+Rapid growth remains organic-only:
+- no Promote;
+- no paid generation credits;
+- no purchased followers/views;
+- no generic repost farm.
+
 ## Current account read — 2026-09-16
 
 The profile is showing a measurable upward distribution trend rather than a flat launch pattern.
