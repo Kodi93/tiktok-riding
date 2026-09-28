@@ -6,6 +6,60 @@ Grow followers and repeat viewers by improving creative quality and audience res
 
 The account is currently early enough that every post is an experiment. The job is to identify repeatable formats that reliably outperform the account's own baseline and then improve those formats without turning them into duplicates.
 
+## Evidence update — 2026-09-28
+
+Latest visible 28-day snapshots:
+- 12.1K overall post views
+- 89 profile views
+- 506 likes
+- 23 comments
+- 4 shares
+- 2.44K Promote views
+- 157 Promote-attributed new followers
+- $43 Promote spend
+- 97.2% For You traffic on the Promote analytics view
+- 197 likes and 2 shares on the Promote analytics snapshot
+
+Derived operating signals:
+- paid follower acquisition: approximately $0.274 per follower;
+- promoted-view-to-follow conversion: approximately 6.43%;
+- promoted like/view rate: approximately 8.07%;
+- overall like/view rate: approximately 4.18%;
+- overall comment/view rate: approximately 0.19%;
+- overall share/view rate: approximately 0.03%;
+- overall profile-view/view rate: approximately 0.74%.
+
+Interpretation:
+- the channel has demonstrated that viewers will follow the concept when distribution is purchased;
+- organic shareability and profile conversion are now the primary bottlenecks;
+- the next growth phase must make organic reach compound faster than paid spend;
+- scenario-driven biker comedy, animated/motion-graphic concepts, recurring series, and distinctive rider/bike identity should carry more of the feed than generic scenic POV;
+- Promote should be used as a bounded test accelerator, not as the primary growth engine.
+
+### Next-stage targets
+
+These are directional operating targets, not guarantees:
+- establish 50K organic monthly views as the first scale checkpoint;
+- then establish 100K+ organic monthly views consistently;
+- produce multiple 10K+ posts rather than relying on one isolated breakout;
+- lift share rate materially above the current ~0.03% snapshot;
+- improve profile-view conversion above the current ~0.74% snapshot;
+- verify that promoted followers increase future organic reach rather than only follower count.
+
+### Creative portfolio for the next sprint
+
+Target mix across a 12-post test batch:
+- 50% scenario comedy / animated biker problems / meme-native originals;
+- 25% exceptional riding moments with a clear story, reveal, or payoff;
+- 15% Z7 Hybrid / helmet-on rider identity / machine personality;
+- 10% reply-video, comment-led, or deliberately weird experiments.
+
+Every P0 concept must answer:
+1. Why does the viewer stop in the first second?
+2. Why do they need the payoff?
+3. Why would they send it to another rider?
+4. Why would they recognize the next Zeph Rides post?
+
 ## Current account read — 2026-09-16
 
 The profile is showing a measurable upward distribution trend rather than a flat launch pattern.
