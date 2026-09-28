@@ -1,5 +1,17 @@
 # Production Board
 
+## Native TikTok monetization
+
+| Work item | Owner lane | Status | Definition of done |
+|---|---|---|---|
+| Verify LIVE Gifts availability | Native monetization | USER CHECK | TikTok LIVE/Gifts control confirmed enabled or unavailable |
+| Build recurring LIVE format | Creative | IN PROGRESS | 3 repeatable safe stationary LIVE concepts scripted |
+| Build 60+ second original lane | Content | IN PROGRESS | at least 2 originals/week designed for retention, not padding |
+| Track TikTok-native earnings | Analytics | READY | earnings logged separately by native feature |
+| TikTok Shop readiness | Growth | WAITING ON ELIGIBILITY | activate only when TikTok shows account eligible |
+| Creator Rewards readiness | Growth | WAITING ON ELIGIBILITY | preserve qualifying original-content lane |
+
+
 ## 2026-09-28 Shareability Sprint
 
 | Work item | Owner lane | Status | Definition of done |
