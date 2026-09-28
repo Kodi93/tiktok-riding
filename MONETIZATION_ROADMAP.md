@@ -3,32 +3,37 @@
 ## Principle
 Monetization is built on repeatable audience attention, recognizable identity, and trust. Revenue should not distort the channel before the channel has a reason for people to follow.
 
-## Immediate revenue mode — 2026-09-28
+## Native TikTok monetization mode — 2026-09-28
 
-The account is still too small to rely on TikTok's direct view payouts, so revenue work starts **before** platform-payout eligibility.
+The monetization plan is now **TikTok-native only**. Do not pursue external sponsors, UGC clients, off-platform affiliate deals, paid brand outreach, or additional ad spend unless the user explicitly changes direction.
 
-Priority order:
-1. **Direct paid UGC / micro-sponsorships:** sell original motorcycle vertical content to local/regional dealerships, gear shops, service businesses, and powersports brands. This has no TikTok follower minimum and is the fastest plausible zero-new-spend cash lane.
-2. **LIVE Gifts, if the account's LIVE Gifts switch is actually enabled:** use structured rider Q&A / Z7 Hybrid / WV-road LIVE sessions. Do not assume ordinary LIVE access automatically means Gifts are enabled.
-3. **TikTok Shop affiliate at eligibility:** current U.S. policy allows Affiliate Creator self-application at 1,000 followers, subject to identity/account checks and product-category qualification.
-4. **Creator Rewards later:** preserve a lane of original 60+ second content for the 10,000-follower / 100,000-views-in-30-days gate.
-5. **Video Gifts later:** current published requirement is 10,000 followers plus the other account requirements.
+### Priority 1 — LIVE Gifts now, if enabled on the account
+The account already has LIVE access. The immediate native-revenue opportunity is LIVE Gifts **only if the Gifts control is actually enabled for this account/region**.
 
-### Revenue rule
+Operating plan:
+- run stationary, safe LIVE sessions rather than interacting with LIVE while riding;
+- focus on Z7 Hybrid Q&A, rider takes, gear/bike details, WV road stories, and post-ride discussion;
+- build recurring LIVE formats so viewers know what they are joining;
+- clip the strongest LIVE moments into normal posts;
+- never ask viewers to overspend or use manipulative gift pressure.
 
-A revenue test is only counted as successful when cash/commission is actually earned. Free product, discounts, samples, and store credit are tracked separately and do not count as profit.
+### Priority 2 — TikTok Shop / affiliate eligibility
+Treat the first TikTok-native commerce threshold as a growth milestone. Once the account qualifies, use only products that fit the motorcycle audience and can be represented credibly.
 
-### Current sponsor offer
+### Priority 3 — Creator Rewards readiness
+Maintain a deliberate lane of original 60+ second videos so growth toward Creator Rewards does not require changing the channel later. Longer posts must still have a strong opening and actual story/value; do not pad clips to one minute.
 
-Use a low-friction paid pilot rather than free exposure:
-- $150: one original 15–30 second vertical TikTok tailored to the business/product/service;
-- includes publication on Zeph Rides when editorial fit is good;
-- includes 30-day organic social repost rights for the sponsor;
-- sponsored relationship is disclosed;
-- no paid boosting is required;
-- additional usage, ad rights, exclusivity, travel, or extra deliverables are quoted separately.
+### Priority 4 — Video Gifts and other native features
+Enable additional TikTok-native monetization features only when TikTok shows the account as eligible.
 
-This is a starting test price, not a permanent rate. Raise it when repeatable organic reach and conversion improve.
+### Native-only revenue rule
+Revenue counts only when TikTok itself attributes earnings through an enabled native feature. External sponsorships, off-platform UGC, and unrelated referral programs are out of scope for this strategy.
+
+### Zero-new-spend constraint
+- no additional Promote spend;
+- no paid video-generation credits;
+- no paid stock/media acquisition;
+- grow through organic posts, LIVE, comments/replies, native TikTok editing/TTS/effects, and existing original assets.
 
 ## Phase 0 — Proof of content-market fit
 Primary objective: prove that Zeph Rides can repeatedly escape the small initial distribution plateau.
