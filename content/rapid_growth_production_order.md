@@ -5,7 +5,7 @@ This is the short execution queue. Recheck the live account and source inventory
 | Order | Work | Exit evidence | Linked work |
 |---:|---|---|---|
 | 1 | Finish SS-001 high-beam sequel | Original animated master, distinct payoff/cover, source and rights record, phone playback, QA >=18/22 | `content/production_board.md` |
-| 2 | Finish AM-036 weather follow-up | Master and cover tied to verified source, QA score, caption, scheduler/native handoff | `content/rapid_growth_production_order.md` history |
+| 2 | Finish AM-036 weather follow-up | Master and cover tied to verified source, QA score, caption, scheduler/native handoff | `content/production_board.md` |
 | 3 | Finish AM-040 Clutch Tribunal opener | First reusable series execution published and measured without copying the previous joke | `content/production_board.md` |
 | 4 | Prepare AM-037 visor loop and AM-048 Z7 Hybrid identity post | Two visually distinct briefs with footage, audio, rights, and cover paths | `content/production_board.md` |
 | 5 | Reconcile the next visible 3x3 grid and source bank | Actual profile snapshot, varied covers, logged non-POV clips, no home/garage/face exposure | Issues [#6](https://github.com/Kodi93/tiktok-riding/issues/6), [#12](https://github.com/Kodi93/tiktok-riding/issues/12) |
