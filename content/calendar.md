@@ -13,33 +13,39 @@ Primary windows from current account-specific Metricool audience data:
 
 Wednesday through Friday currently show the strongest audience values, but creative quality outranks timing.
 
-## Current confirmed scheduler state — 2026-09-28
+## Current confirmed scheduler state — 2026-09-30 08:47 ET
 
-| Date | Time | Asset/concept | Status | Note |
+| Date | Time | Asset/concept | Status | Evidence |
 |---|---:|---|---|---|
-| 2026-09-28 | 10:00 | Range Anxiety / fuel-light joke | ERROR | Metricool returned: account limit reached. Do not buy an upgrade. |
-| 2026-09-28 | 18:00 | Visor Boss / bug joke | PENDING | Strong 6–8s scenario format; retain slot. |
-| 2026-09-29 | 10:00 | Driver NPC / high-beam follow-up | PENDING | Strong scenario family; retain slot. |
+| 2026-09-28 | 10:00 | Range Anxiety / fuel-light joke | ERROR | Metricool: `You have reached your Metricool account limit.` |
+| 2026-09-28 | 18:00 | Visor Boss / bug joke | ERROR | Metricool: `You have reached your Metricool account limit.` |
+| 2026-09-29 | 10:00 | queued high-beam variant | ERROR | Metricool: `You have reached your Metricool account limit.` |
 
-## Planned rapid-growth queue
+Metricool returned no future scheduled posts for September 30–October 15. This does **not** prove that TikTok Studio has no native queue. Treat the native queue as unverified and do not create a replacement or duplicate until it is checked.
 
-These are editorial targets. Do not mark them scheduled until the final asset exists and the actual TikTok/Metricool post is confirmed.
+## Current production-to-publishing order
 
-| Date | Time | ID | Series | Hook | Status |
-|---|---:|---|---|---|---|
-| 2026-09-29 | 18:00 | AM-036 | Animated Biker Problems | Weather app: 0% rain. | NEXT_TO_RENDER |
-| 2026-09-30 | 10:00 | AM-040 | Clutch Tribunal | He didn't wave back. | NEXT_TO_RENDER |
-| 2026-09-30 | 18:00 | AM-037 | Animated Biker Problems | I cleaned the visor yesterday. | READY_TO_PRODUCE |
-| 2026-10-01 | 10:00 | AM-048 | Hybrid Life | Every gas stop starts the same way. | READY_TO_PRODUCE |
-| 2026-10-01 | 18:00 | AM-039 | Animated Biker Problems | GPS: turn around when possible. | READY_TO_PRODUCE |
-| 2026-10-02 | 10:00 | AM-045 | Clutch Tribunal | Forgot to cancel the turn signal. | READY_TO_PRODUCE |
-| 2026-10-02 | 18:00 | AM-052 | WV Road Logic | Forecast changed between ridges. | READY_TO_PRODUCE |
-| 2026-10-03 | 10:00 | AM-043 | Clutch Tribunal | Said "just one mod." | READY_TO_PRODUCE |
-| 2026-10-03 | 18:00 | AM-047 | Hybrid Life | EV mode is weird the first time. | READY_TO_PRODUCE |
-| 2026-10-04 | 10:00 | AM-053 | WV Road Logic | Pavement update installed overnight. | READY_TO_PRODUCE |
-| 2026-10-04 | 18:00 | AM-038 | Animated Biker Problems | Fuel light just came on. | READY_TO_PRODUCE |
-| 2026-10-05 | 10:00 | AM-041 | Clutch Tribunal | Revving at the red light for no reason. | READY_TO_PRODUCE |
-| 2026-10-05 | 18:00 | AM-054 | WV Road Logic | The "shortest route" saw one mountain. | READY_TO_PRODUCE |
+These are editorial priorities, not scheduled posts. A slot is available only after the exact master, rights/source record, cover, phone playback, and QA score are verified.
+
+| Order | ID | Concept | Current state | Scheduling rule |
+|---:|---|---|---|---|
+| 1 | SS-001 | high-beam sequel | IN PRODUCTION | Do not schedule before a distinct 7–9s master passes at least 18/22 QA. |
+| 2 | AM-036 | 0% rain / personal cloud | READY TO PRODUCE | Do not schedule before master, cover, source/rights, phone playback, and QA are logged. |
+| 3 | AM-040 | Clutch Tribunal: failure to wave | READY TO PRODUCE | Do not schedule before the first series master passes QA and no real rider is identifiable. |
+| 4 | AM-037 | visor clean-streak loop | BANKED | Keep behind the three active items. |
+| 5 | AM-048 | Z7 Hybrid identity post | BANKED | Use only with accurate claims and a visually distinct master. |
+
+## Next eligible windows
+
+Current account-specific Metricool audience values continue to favor:
+- Wednesday 10:00 AM: 1,432
+- Wednesday 6:00 PM: 1,386
+- Thursday 10:00 AM: 1,471
+- Thursday 6:00 PM: 1,378
+- Friday 10:00 AM: 1,379
+- Friday 6:00 PM: 1,222
+
+Do not reserve or fill these windows until the native TikTok queue is verified and a priority master clears the release gate. Keep no more than three automated posts per day and at least four hours between them.
 
 ## 60+ second monetization-prep lane
 
