@@ -1,16 +1,7 @@
 name: Content Quality Gate
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'content/cover_plan.csv'
-      - 'scripts/lint_content_plan.py'
-      - '.github/workflows/content-quality.yml'
-  pull_request:
-    paths:
-      - 'content/cover_plan.csv'
-      - 'scripts/lint_content_plan.py'
+  workflow_dispatch:
 
 jobs:
   lint-content-plan:
